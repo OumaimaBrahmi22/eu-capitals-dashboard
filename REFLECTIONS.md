@@ -12,4 +12,4 @@ Q6. My prediction was wrong. The capital that ranked first was Madrid. The resul
 
 Q7. The indication at the end of the page about the last updates for data to verify if the pipeline is broken or not. This is a useful warning, but i'd also add an alert or a visible status message to make failures easier to notice.
 
-Q8. 
+Q8. I changed scripts/fetch_and_score.py to update the origin coordinates and recalculate distances and CO2 emissions. I also changed docs/index.html to display the new origin instead of Paris in the headline. The best destination is not an absolute fact because the distance and emissions depend on the starting city, so two people departing from different cities may receive different recommendations. As i started from Vienna the city recommended for the date of 21/10/2026 is Bratislava, Slovakia.
